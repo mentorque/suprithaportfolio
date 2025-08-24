@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown, MapPin } from "lucide-react";
-import profilePicture from "@/assets/profile-picture.jpg";
+import suprithaProfile from "@/assets/supritha-profile.jpg";
 
 const HeroSection = () => {
   const scrollToContact = () => {
@@ -30,7 +30,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="mb-8">
           <img
-            src={profilePicture}
+            src={suprithaProfile}
             alt="Supritha Raj"
             className="w-48 h-48 rounded-full mx-auto mb-6 border-4 border-white shadow-2xl object-cover object-center"
           />
