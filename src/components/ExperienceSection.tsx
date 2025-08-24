@@ -5,27 +5,18 @@ import { Calendar, MapPin } from "lucide-react";
 const ExperienceSection = () => {
   const experiences = [
     {
-      title: "Data Analyst",
-      company: "Safe-T-Wheels",
-      location: "Salem, India",
-      dates: "Aug 2023 - Aug 2024",
+      title: "Research Intern",
+      company: "University of Hyderabad",
+      location: "Hyderabad, India",
+      dates: "May 2023 - July 2023",
       responsibilities: [
-        "Delivered 25–40% quarterly growth by analyzing sales and inventory data from 10,000+ transactions using Power BI dashboards and Excel trend models.",
-        "Enabled acquisition of 1,000+ new customers by segmenting 10K+ transactional records using advanced SQL joins, subqueries, and CASE logic.",
-        "Saved 15+ hours weekly by automating daily reporting workflows in Excel VBA and Google Sheets, improving cross-functional transparency.",
-        "Reduced operational bottlenecks by 20% by identifying process inefficiencies through SQL and Python data mining on sales and fulfillment logs.",
-        "Boosted qualified inbound leads by 30% through digital engagement performance analysis, influencing C-level strategic marketing decisions."
-      ]
-    },
-    {
-      title: "Procurement Coordinator Intern",
-      company: "Flow Con Engineer India Pvt Ltd",
-      location: "Coimbatore, India",
-      dates: "May 2023 – July 2023",
-      responsibilities: [
-        "Reduced procurement cycle time by 15% by developing Tableau and Excel dashboards to track supplier KPIs and delivery compliance.",
-        "Generated €5,500 in savings within 3 months by conducting vendor cost-efficiency analysis using purchasing data and driving optimized sourcing decisions.",
-        "Improved forecast accuracy by 18% through trend analysis of inventory flow and material demand using SQL queries and Tableau visuals."
+        "Applied advanced methods including affinity chromatography, ion-exchange chromatography, and enzyme inhibition assays to extract and validate protease inhibitors, demonstrating strong technical expertise and analytical precision.",
+        "Designed and conducted pest-management experiments on Achaea janata larvae using protease inhibitors, improving experimental adaptability and demonstrating 70% larval mortality in treated groups.",
+        "Tested two colonies (n=100 each), recording control larvae weights of 465–906 mg versus treated averages <250 mg, evidencing >60% growth reduction and suppressed vitality.",
+        "Collected and organized 200+ quantitative data points on larval development, strengthening accuracy of growth and mortality trend analysis through careful data management.",
+        "Performed t-tests and survival analyses in Python and R, validating statistical significance (p<0.01) with 95% confidence and quantifying effect size to strengthen reliability of pest-management findings.",
+        "Developed data visualizations (box plots, survival curves, bar charts) that enhanced results clarity and enabled effective communication of experimental insights to diverse audiences.",
+        "Identified consistent trends of stunted growth and elevated mortality, confirming protease inhibitors' 70% effectiveness as natural biocontrol agents, contributing to sustainable agricultural pest-management strategies."
       ]
     }
   ];
@@ -40,7 +31,7 @@ const ExperienceSection = () => {
             </h2>
             <div className="w-24 h-1 bg-[hsl(var(--primary))] mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Professional experience in business analytics, data science, and process optimization
+              Research experience in healthcare analytics, life sciences, and experimental data analysis
             </p>
           </div>
 

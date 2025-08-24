@@ -3,17 +3,17 @@ import { MapPin, Phone, Mail, Linkedin, GraduationCap, Calendar, Globe, Award } 
 
 const AboutSection = () => {
   const quickFacts = [
-    { icon: MapPin, label: "Location", value: "Cork, Ireland" },
-    { icon: GraduationCap, label: "Education", value: "MSc Business Analytics" },
-    { icon: Calendar, label: "Experience", value: "2+ Years" },
-    { icon: Globe, label: "Specialization", value: "Business Analytics & Data Science" },
+    { icon: MapPin, label: "Location", value: "Galway, Ireland" },
+    { icon: GraduationCap, label: "Education", value: "MSc Biomedical Genomics" },
+    { icon: Calendar, label: "Experience", value: "Research Experience" },
+    { icon: Globe, label: "Specialization", value: "Healthcare & Life Sciences Data Analysis" },
   ];
 
   const contactInfo = [
-    { icon: Phone, value: "+353 899803994" },
-    { icon: Mail, value: "rethikarameshkumaar@gmail.com" },
-    { icon: MapPin, value: "Cork, Ireland" },
-    { icon: Linkedin, value: "https://www.linkedin.com/in/rarethika/" },
+    { icon: Phone, value: "+353899765583" },
+    { icon: Mail, value: "supritharaj.m@gmail.com" },
+    { icon: MapPin, value: "Galway, Ireland" },
+    { icon: Linkedin, value: "LinkedIn Profile" },
   ];
 
   return (
@@ -31,11 +31,11 @@ const AboutSection = () => {
             {/* Main Content - Takes 2/3 of the space */}
             <div className="lg:col-span-2">
               <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
-                Business Analyst & Data Scientist
+                Data Analyst & Healthcare Sciences Specialist
               </h3>
               
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                Analytical and results-driven Business Analyst with hands-on experience in SQL, Python, Power BI, and Excel to drive data-informed decision-making. Proven success in automating reporting, optimizing procurement workflows, and building predictive models for customer and revenue forecasting. Skilled in translating data into actionable insights and collaborating with cross-functional stakeholders to support strategic initiatives in operations, sales, and performance analytics.
+                Data analyst specializing in healthcare and life sciences, leveraging Python, R, and statistical methods to deliver KPI dashboards, QC monitoring, and evidence-based recommendations. Experienced with experimental design, survival analysis, and process optimization, translating complex lab and clinical-adjacent datasets into actionable trends for quality, throughput, and risk management. Adept at reproducible workflows (Git, Jupyter, RMarkdown) and stakeholder-ready storytelling in Tableau and PowerPoint within GMP-aware contexts.
               </p>
 
               {/* Contact Information Grid */}

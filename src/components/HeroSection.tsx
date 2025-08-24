@@ -31,22 +31,22 @@ const HeroSection = () => {
         <div className="mb-8">
           <img
             src={profilePicture}
-            alt="Rethika Rameshkumaar Anuradha"
+            alt="Supritha Raj"
             className="w-48 h-48 rounded-full mx-auto mb-6 border-4 border-white shadow-2xl object-cover object-center"
           />
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight">
-          Rethika Rameshkumaar Anuradha
+          Supritha Raj
         </h1>
         
         <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto leading-relaxed">
-          Business Analyst & Data Scientist Driving Data-Informed Decision Making
+          Data Analyst Specializing in Healthcare & Life Sciences
         </p>
         
         <div className="flex items-center justify-center space-x-2 text-white/80 mb-12">
           <MapPin className="w-5 h-5 text-[hsl(var(--hero-accent))]" />
-          <span className="text-lg">Cork, Ireland</span>
+          <span className="text-lg">Galway, Ireland</span>
         </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">

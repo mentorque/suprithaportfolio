@@ -4,20 +4,24 @@ import { Badge } from "@/components/ui/badge";
 const SkillsSection = () => {
   const skillCategories = [
     {
-      title: "Data Analysis & Visualization",
-      skills: ["MS Excel (Vlookup, Powerquery)", "Power BI", "Tableau", "Pandas", "NumPy"]
+      title: "Programming & Statistical Computing",
+      skills: ["Python", "R", "Pandas", "NumPy", "Anaconda", "Jupyter Notebook"]
     },
     {
-      title: "Programming & Databases",
-      skills: ["Python", "MySQL", "Jupyter Notebook", "Pycharm"]
+      title: "Data Analysis & Visualization", 
+      skills: ["KPI Tracking and Metrics", "Data Visualization", "Tableau", "Trend Analysis", "Data Quality Control"]
     },
     {
-      title: "Analytics & Modeling",
-      skills: ["Predictive, Prescriptive Modelling", "Feature Engineering", "Data storytelling and management"]
+      title: "Statistical Methods & Testing",
+      skills: ["A/B testing", "Hypothesis testing", "Variant analysis", "Statistical Computing", "Survival Analysis"]
     },
     {
-      title: "Business Tools & Methodologies",
-      skills: ["Agile methodologies", "Jira", "CRM (Hubspot)", "Figma", "Miro"]
+      title: "Development & Infrastructure",
+      skills: ["Git", "GitHub", "Docker", "AWS", "Data Management", "Process Optimization"]
+    },
+    {
+      title: "Life Sciences & Compliance",
+      skills: ["GMP Compliance", "Laboratory Safety", "Experimental Design", "Biostatistics"]
     }
   ];
 
@@ -31,7 +35,7 @@ const SkillsSection = () => {
             </h2>
             <div className="w-24 h-1 bg-[hsl(var(--primary))] mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Comprehensive technical skills in business analytics, data science, and process optimization
+              Comprehensive technical skills in healthcare analytics, life sciences research, and statistical computing
             </p>
           </div>
 

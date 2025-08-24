@@ -10,28 +10,16 @@ import projectDeloitte from "@/assets/project-deloitte.jpg";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "Gaming Analytics Dashboard for Gamucopia Creatives",
-      description: "Built an interactive Power BI dashboard consolidating financial, marketing, and user engagement data for real-time monitoring of player churn, revenue forecasts, and marketing ROI. Used Python (Pandas, ARIMA, Prophet) to deliver descriptive and predictive analytics, driving actionable recommendations for budget optimization.",
+      title: "Evolution of Detoxification Genes in Primates",
+      description: "Analyzed 85 protein sequences from 5 primate species using Python, aligned 338 positions, constructing 3 phylogenetic trees (1,000 bootstraps), and identified 10+ conserved motifs, advancing evolutionary insights by 25%. Built and validated 3D protein models with automated tools, applying hypothesis testing to ensure accuracy, and achieving scores >0.7 for 90% of models.",
       image: projectGaming,
-      technologies: ["Power BI", "Python", "Pandas", "ARIMA", "Prophet", "Analytics"],
+      technologies: ["Python", "Phylogenetics", "Bioinformatics", "Statistical Analysis", "3D Modeling"],
     },
     {
-      title: "ISCG Case Competition – Deloitte",
-      description: "Collaborated with Deloitte professionals to analyze customer insights and market positioning, developing data-driven strategic packaging and marketing recommendations.",
-      image: projectDeloitte,
-      technologies: ["Strategy", "Customer Analysis", "Market Research", "Consulting"],
-    },
-    {
-      title: "The Ocean Cleanup Dashboard",
-      description: "Developed a Tableau dashboard to track progress on SDG 6 and SDG 14 using real-world marine microplastics and water quality datasets. Conducted extensive data cleaning and statistical analysis, designed geospatial maps and KPI scorecards, and generated actionable insights for prioritizing cleanup efforts.",
+      title: "Molecular Techniques Demonstrations and Equipment Optimization",
+      description: "Executed 10+ molecular biology experiments, improving efficiency by 20%, validating core protocols, and isolating 150 mg DNA (>1.8 purity, 95% suitability for downstream analysis). Optimized PCR (increasing 25% efficiency and decreasing 40% nonspecific products) and visualized DNA bands with 90% integrity for precise fragment verification.",
       image: projectOcean,
-      technologies: ["Tableau", "Environmental Data", "Geospatial Analysis", "SDG Tracking"],
-    },
-    {
-      title: "Crude Oil Price Prediction - IBM",
-      description: "Designed a time-series forecasting system to predict crude oil prices using 30 years of historical market and geopolitical data. Employed statistical modeling techniques and delivered an interactive dashboard for price prediction and decision support in investment and energy sector planning.",
-      image: projectOil,
-      technologies: ["Time Series", "Forecasting", "Statistical Modeling", "Financial Analytics"],
+      technologies: ["Molecular Biology", "PCR Optimization", "DNA Analysis", "Laboratory Techniques"],
     },
   ];
 
@@ -45,7 +33,7 @@ const ProjectsSection = () => {
             </h2>
             <div className="w-24 h-1 bg-[hsl(var(--primary))] mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Key projects showcasing expertise in business analytics, data science, and strategic insights
+              Key research projects showcasing expertise in bioinformatics, molecular biology, and data analysis
             </p>
           </div>
 
