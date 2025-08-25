@@ -38,11 +38,11 @@ const HeroSection = () => {
       </div>
       
       <div className="container mx-auto px-4 text-center relative z-10">
-        <div className="mb-8 animate-scale-in">
+        <div className="mb-8 animate-scale-in flex justify-center">
           <img
             src={suprithaProfile}
             alt="Supritha Raj"
-            className="w-48 h-48 rounded-full mx-auto mb-6 border-4 border-white shadow-glow object-cover object-center animate-float"
+            className="w-48 h-48 rounded-full border-4 border-white shadow-glow object-cover object-center animate-float"
           />
         </div>
         

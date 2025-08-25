@@ -2,23 +2,21 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
-import projectGaming from "@/assets/project-gaming.jpg";
-import projectOcean from "@/assets/project-ocean.jpg";
-import projectOil from "@/assets/project-oil.jpg";
-import projectDeloitte from "@/assets/project-deloitte.jpg";
+import projectPrimates from "@/assets/project-primates.jpg";
+import projectMolecular from "@/assets/project-molecular.jpg";
 
 const ProjectsSection = () => {
   const projects = [
     {
       title: "Evolution of Detoxification Genes in Primates",
       description: "Analyzed 85 protein sequences from 5 primate species using Python, aligned 338 positions, constructing 3 phylogenetic trees (1,000 bootstraps), and identified 10+ conserved motifs, advancing evolutionary insights by 25%. Built and validated 3D protein models with automated tools, applying hypothesis testing to ensure accuracy, and achieving scores >0.7 for 90% of models.",
-      image: projectGaming,
+      image: projectPrimates,
       technologies: ["Python", "Phylogenetics", "Bioinformatics", "Statistical Analysis", "3D Modeling"],
     },
     {
       title: "Molecular Techniques Demonstrations and Equipment Optimization",
       description: "Executed 10+ molecular biology experiments, improving efficiency by 20%, validating core protocols, and isolating 150 mg DNA (>1.8 purity, 95% suitability for downstream analysis). Optimized PCR (increasing 25% efficiency and decreasing 40% nonspecific products) and visualized DNA bands with 90% integrity for precise fragment verification.",
-      image: projectOcean,
+      image: projectMolecular,
       technologies: ["Molecular Biology", "PCR Optimization", "DNA Analysis", "Laboratory Techniques"],
     },
   ];
