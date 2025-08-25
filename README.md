@@ -10,7 +10,7 @@ There are several ways of editing your application.
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/920735d5-b184-41b5-886b-b1b4b1deb2d6) and start prompting.
+Simply visit the [Lovable Project]([https://lovable.dev/projects/920735d5-b184-41b5-886b-b1b4b1deb2d6](https://suprithaportfolio.lovable.app/)) and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 
