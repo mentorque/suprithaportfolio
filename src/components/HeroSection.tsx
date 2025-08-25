@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown, MapPin } from "lucide-react";
-import suprithaProfile from "@/assets/supritha-profile.jpg";
+// Using the uploaded image directly
+const suprithaProfile = "/lovable-uploads/f858798f-d2d0-4dab-a9a1-a46c04b5abdd.png";
 import heroBackground from "@/assets/hero-background-modern.jpg";
 
 const HeroSection = () => {
