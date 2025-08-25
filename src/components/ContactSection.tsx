@@ -26,7 +26,7 @@ const ContactSection = () => {
       icon: Linkedin,
       label: "LinkedIn",
       value: "Connect with me",
-      href: "https://www.linkedin.com/in/rarethika/"
+      href: "https://www.linkedin.com/in/supritha-raj/"
     }
   ];
 
