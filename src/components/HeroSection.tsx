@@ -43,11 +43,11 @@ const HeroSection = () => {
           <img
             src={suprithaProfile}
             alt="Supritha Raj"
-            className="w-48 h-48 rounded-full border-4 border-white shadow-glow object-cover object-center animate-float"
+            className="w-64 h-64 rounded-full border-4 border-white shadow-glow object-cover object-center animate-float"
           />
         </div>
         
-        <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight animate-fade-in">
+        <h1 className="text-6xl md:text-8xl font-bold text-white mb-4 tracking-tight animate-fade-in">
           Supritha Raj
         </h1>
         
