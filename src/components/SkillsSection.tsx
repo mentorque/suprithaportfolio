@@ -20,6 +20,10 @@ const SkillsSection = () => {
       skills: ["Git", "GitHub", "Docker", "AWS", "Data Management", "Process Optimization"]
     },
     {
+      title: "Life Science Skills",
+      skills: ["Spectroscopy (DNA and proteins)", "pCR", "Real time PCR", "Nano drop", "Agarose gel electrophoreses", "SDS-page and immunoblotting", "Media preparation", "Buffers preparation", "Streaking, pour plate and spread plate", "Bacterial transformation", "Plasmid isolation", "Protein expression", "Protein extraction", "Protein purification", "Western blot"]
+    },
+    {
       title: "Life Sciences & Compliance",
       skills: ["GMP Compliance", "Laboratory Safety", "Experimental Design", "Biostatistics"]
     }

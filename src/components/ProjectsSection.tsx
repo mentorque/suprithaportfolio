@@ -14,7 +14,7 @@ const ProjectsSection = () => {
       technologies: ["Python", "Phylogenetics", "Bioinformatics", "Statistical Analysis", "3D Modeling"],
     },
     {
-      title: "Molecular Techniques Demonstrations and Equipment Optimization",
+      title: "DNA extraction and optimisation of equipment",
       description: "Executed 10+ molecular biology experiments, improving efficiency by 20%, validating core protocols, and isolating 150 mg DNA (>1.8 purity, 95% suitability for downstream analysis). Optimized PCR (increasing 25% efficiency and decreasing 40% nonspecific products) and visualized DNA bands with 90% integrity for precise fragment verification.",
       image: projectMolecular,
       technologies: ["Molecular Biology", "PCR Optimization", "DNA Analysis", "Laboratory Techniques"],
