@@ -30,6 +30,25 @@ const HeroSection = () => {
         backgroundAttachment: 'fixed'
       }}
     >
+      {/* Background video */}
+<div className="absolute inset-0">
+  <video
+    autoPlay
+    loop
+    muted
+    playsInline
+    poster={heroBackground}     // fallback image while video loads
+    className="w-full h-full object-cover"
+  >
+    <source
+      src="https://videos.pexels.com/video-files/1722882/1722882-uhd_2560_1440_25fps.mp4"
+      type="video/mp4"
+    />
+  </video>
+  {/* Optional dark overlay for readability */}
+  <div className="absolute inset-0 bg-black/50" />
+</div>
+
       {/* Animated particles overlay */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-white rounded-full animate-float"></div>
