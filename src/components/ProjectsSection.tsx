@@ -68,15 +68,23 @@ const ProjectsSection = () => {
                     ))}
                   </div>
                   
-                  <Button 
-                    variant="outline"
-                    className="w-full border-[hsl(var(--primary))] text-[hsl(var(--primary))] hover:bg-[hsl(var(--primary))] hover:text-white transition-all duration-200"
-                    onClick={() => project.link && window.open(project.link, '_blank')}
-                    disabled={!project.link}
-                  >
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    View Details
-                  </Button>
+                  <Button
+                      type="button"
+                      variant="outline"
+                      className="w-full border-[hsl(var(--primary))] text-[hsl(var(--primary))] hover:bg-[hsl(var(--primary))] hover:text-white transition-all duration-200"
+                      onClick={(e) => {
+                        if (project.link) {
+                            window.open(project.link, '_blank', 'noopener,noreferrer');
+                      } else {
+                          e.preventDefault(); // keep UI the same; do nothing on click
+                        }
+                      }}
+                      aria-disabled={!project.link} // optional: accessibility only
+                        >
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      View Details
+                    </Button>
+
                 </CardContent>
               </Card>
             ))}
