@@ -12,6 +12,7 @@ const ProjectsSection = () => {
       description: "Analyzed 85 protein sequences from 5 primate species using Python, aligned 338 positions, constructing 3 phylogenetic trees (1,000 bootstraps), and identified 10+ conserved motifs, advancing evolutionary insights by 25%. Built and validated 3D protein models with automated tools, applying hypothesis testing to ensure accuracy, and achieving scores >0.7 for 90% of models.",
       image: projectPrimates,
       technologies: ["Python", "Phylogenetics", "Bioinformatics", "Statistical Analysis", "3D Modeling"],
+      link: "https://drive.google.com/file/d/1Rby8PxP14GSCneFXl8NbS-oyu5OMdH1_/view?usp=sharing"
     },
     {
       title: "DNA extraction and optimisation of equipment",
@@ -70,6 +71,8 @@ const ProjectsSection = () => {
                   <Button 
                     variant="outline"
                     className="w-full border-[hsl(var(--primary))] text-[hsl(var(--primary))] hover:bg-[hsl(var(--primary))] hover:text-white transition-all duration-200"
+                    onClick={() => project.link && window.open(project.link, '_blank')}
+                    disabled={!project.link}
                   >
                     <ExternalLink className="w-4 h-4 mr-2" />
                     View Details
